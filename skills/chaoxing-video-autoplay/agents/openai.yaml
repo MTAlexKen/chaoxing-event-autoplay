@@ -1,0 +1,8 @@
+interface:
+  display_name: "超星视频联播"
+  short_description: "Safely monitor and play unfinished Chaoxing videos at 2x"
+  brand_color: "#0F766E"
+  default_prompt: "Use $chaoxing-video-autoplay to continue only unfinished Chaoxing videos in the open browser tab."
+
+policy:
+  allow_implicit_invocation: true
