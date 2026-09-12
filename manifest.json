@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "超星视频事件联播",
+  "version": "1.1.17",
+  "description": "按章节记忆已完成项目，监听超星视频完成事件，确认任务点完成后进入下一节并保持二倍速；支持页面内切换后的自动重新注入和播放恢复。",
+  "content_scripts": [
+    {
+      "matches": ["https://mooc1.chaoxing.com/*"],
+      "js": ["content.js"],
+      "all_frames": true,
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": []
+}
